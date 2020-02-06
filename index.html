@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- import google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+
+  <!-- import font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+  <!-- import reset css file from css/reset.css -->
+  <link rel="stylesheet" href="./css/reset.css" />
+  <!-- import main css file from css/main.css -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>V-One Hotel</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <a href="" class="header__logo"><img src="images/logo.png" alt=""></a>
+          <div class="header__menu">
+            <div class="lang">
+              <div class="lang__item">
+                <img src="images/vie-icon.png" alt="">
+                <span>Vietnamese</span>
+              </div>
+              <div class="lang__item">
+                <img src="images/chi-icon.png" alt="">
+                <span>Chinese</span>
+              </div>
+            </div>
+            <nav class="nav">
+              <ul>
+                <li><a href="">trang chủ</a></li>
+                <li><a href="">giới thiệu</a></li>
+                <li><a href="">phòng</a></li>
+                <li><a href="">dịch vụ</a></li>
+                <li><a href="">hình ảnh</a></li>
+                <li><a href="">promotion</a></li>
+                <li><a href="">liên hệ</a></li>
+              </ul>
+            </nav>
+            <div class="header__btn-group">
+              <i class="fas fa-search"></i>
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header__content">
+          <p> Your new V-One Hotel in Capital. </p>
+          <p> Plan the journey of your dreams </p>
+          <h1>V-One Hotel</h1>
+        </div>
+        <div class="header__form">
+          <div class="form-item">
+            <span>Check-in*</span>
+            <div class="d-flex">
+              <input placeholder="Check in Date" class="textbox-n" type="text" onfocus="(this.type='date')"
+                onblur="(this.type='text')" id="indate">
+              <i class="far fa-calendar-alt"></i>
+            </div>
+          </div>
+          <div class="form-item">
+            <span>Check-out*</span>
+            <div class="d-flex">
+              <input placeholder="Check out Date" class="textbox-n" type="text" onfocus="(this.type='date')"
+                onblur="(this.type='text')" id="outdate">
+              <i class="far fa-calendar-alt"></i>
+            </div>
+          </div>
+          <div class="form-item">
+            <span>Người lớn</span>
+            <select name="adult" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <span>Trẻ em</span>
+            <select name="adult" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <div class="form-item search">
+            <button class="btn btn--search">Search now</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END Header -->
+
+    <!-- WELCOME -->
+    <div class="welcome">
+      <div class="welcome__content">
+        <div class="welcome__title">
+          <img src="images/welcome.png" alt="">
+          <h2>Enjoy Your Stay in Our Hotel</h2>
+        </div>
+        <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+        <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua.</p>
+      </div>
+      <div class="welcome__pic">
+        <img src="images/welcome-vid.jpg" alt="">
+      </div>
+    </div>
+    <!-- END WELCOME -->
+
+    <!-- COMFORT -->
+    <div class="comfort">
+      <div class="container">
+        <div class="comfort__top">
+          <nav class="comfort__nav">
+            <ul>
+              <li>all</li>
+              <li>deluxe</li>
+              <li>standard</li>
+              <li>studio</li>
+            </ul>
+          </nav>
+          <div class="comfort__title">
+            <img src="images/comfort.png" alt="">
+            <h2>Our Room</h2>
+          </div>
+        </div>
+        <div class="comfort__main">
+          <i class="fas fa-chevron-left"></i>
+          <div class="comfort__group">
+            <div class="comfort__item">
+              <img class="item-pic" src="images/comfort-img1.jpg" alt="">
+              <div class="comfort__item-content">
+                <h3>Deluxe Dark Room</h3>
+                <div class="people">
+                  <img src="images/people-icon.jpg" alt="">
+                  <span>3 adult(s) and 2 child(ren)</span>
+                </div>
+                <p>This comfortable, modern hotel is set in the urban center of Pontevedra, 10 minutes' wa...</p>
+                <button class="btn btn--book">Book now $0.00</button>
+              </div>
+            </div>
+            <div class="comfort__item">
+              <img class="item-pic" src="images/comfort-img2.jpg" alt="">
+              <div class="comfort__item-content">
+                <h3>Standard Big Room</h3>
+                <div class="people">
+                  <img src="images/people-icon.jpg" alt="">
+                  <span>4 adult(s) and 3 child(ren)</span>
+                </div>
+                <p>Ah, the humble studio apartment. At one time, this dwelling was considered to be the ho...</p>
+                <button class="btn btn--book">Book now from $25.00</button>
+              </div>
+            </div>
+            <div class="comfort__item">
+              <img class="item-pic" src="images/comfort-img3.jpg" alt="">
+              <div class="comfort__item-content">
+                <h3>Standard One Person R...</h3>
+                <div class="people">
+                  <img src="images/people-icon.jpg" alt="">
+                  <span>2 adult(s) and 3 child(ren)</span>
+                </div>
+                <p>The classic room is equipped with desk and chair, 2 single beds, TV and plenty of stora...</p>
+                <button class="btn btn--book">Book now $0.00</button>
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+    <!-- END COMFORT -->
+
+    <!-- CHOOSE -->
+    <div class="choose">
+      <h2>tại sao chọn chúng tôi</h2>
+      <div class="choose__group">
+        <div class="col-3">
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img1.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon1.png" alt="" class="choose__icon">
+              <h3>24h room service</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img2.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon2.png" alt="" class="choose__icon">
+              <h3>free wifi</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img3.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon3.png" alt="" class="choose__icon">
+              <h3>restaurant & bar</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img4.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon4.png" alt="" class="choose__icon">
+              <h3>consierge service</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img5.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon5.png" alt="" class="choose__icon">
+              <h3>events & meetings</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img6.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon6.png" alt="" class="choose__icon">
+              <h3>pool access</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img7.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon7.png" alt="" class="choose__icon">
+              <h3>fitness & spa</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+          <div class="choose__item">
+            <img class="choose__img" src="images/choose-img8.jpg" alt="">
+            <div class="choose__content">
+              <img src="images/choose-icon8.png" alt="" class="choose__icon">
+              <h3>laundry</h3>
+            </div>
+            <div class="cover"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END CHOOSE -->
+
+    <!-- PROMOTIONS -->
+    <div class="promotion">
+      <div class="container">
+        <div class="promotion__title">
+          <img src="images/news.png" alt="">
+          <h2>Promotions</h2>
+        </div>
+        <div class="promotion__group">
+          <div class="promotion__item">
+            <div class="promotion__calendar">
+              <span class="day">7-15</span>
+              <span class="month">September</span>
+            </div>
+            <div class="promotion__content">
+              <h3>Promotion 7-15 September </h3>
+              <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor.
+                incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="promotion__item">
+            <div class="promotion__calendar">
+              <span class="day">7-15</span>
+              <span class="month">September</span>
+            </div>
+            <div class="promotion__content">
+              <h3>Promotion 7-15 September </h3>
+              <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor.
+                incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="promotion__item">
+            <div class="promotion__calendar">
+              <span class="day">7-15</span>
+              <span class="month">September</span>
+            </div>
+            <div class="promotion__content">
+              <h3>Promotion 7-15 September </h3>
+              <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor.
+                incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+          <div class="promotion__item">
+            <div class="promotion__calendar">
+              <span class="day">7-15</span>
+              <span class="month">September</span>
+            </div>
+            <div class="promotion__content">
+              <h3>Promotion 7-15 September </h3>
+              <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Elit, sed do eiusmod tempor.
+                incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END PROMOTIONS -->
+
+    <!-- MAP -->
+    <div class="map">
+      <div class="map__content">
+        <h2>Địa chỉ</h2>
+        <p>
+          Sảnh A, Tòa G3, Vinhome Greenbay Mễ Trì, Số 7 đại lộ Thăng Long, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố
+          Hà
+          Nội, Việt Nam
+        </p>
+        <button class="btn btn--map">google map</button>
+      </div>
+      <div class="map__google">
+        <img src="images/map__google.jpg" alt="">
+      </div>
+    </div>
+    <!-- END MAP -->
+
+    <!-- CONTACT -->
+    <div class="contact">
+      <div class="container">
+        <div class="contact__main">
+          <h2>liên hệ</h2>
+          <h4>
+            Vui lòng liên hệ với chúng tôi theo thông tin bên dưới để kiểm tra thông tin hoặc đặt phòng nhanh nhất
+          </h4>
+          <div class="contact__address">
+            <div class="contact__item">
+              <span>ADD</span>
+              <p>Sảnh A, Tòa G3, Vinhome Greenbay Mễ trì, Số 7 đại lộ Thăng Long,
+                Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam</p>
+            </div>
+            <div class="contact__item">
+              <span>TEL</span>
+              <p>(+84) 24-4567-8910 (Vietnamese and Chinese)</p>
+            </div>
+            <div class="contact__item">
+              <span>MAIL</span>
+              <p>contact@v-onehotel.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__cover"></div>
+    </div>
+    <!-- END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <img src="images/logo.png" alt="">
+          <p>Copyright V-One Hotel. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+  </div>
+
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
